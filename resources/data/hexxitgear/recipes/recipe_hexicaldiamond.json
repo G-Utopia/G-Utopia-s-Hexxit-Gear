@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "hexxitgear:hexicalessence"
+    },
+    "3": {
+      "item": "hexxitgear:hexicalessence"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "hexxitgear:hexicalessence"
+    },
+    "7": {
+      "item": "hexxitgear:hexicalessence"
+    }
+  },
+  "result": {
+    "item": "hexxitgear:hexicaldiamond",
+    "count": 1
+  }
+}

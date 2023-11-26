@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="hexxitgear"
+version="1.0.0"
+displayName="G Utopia's Hexxit Gear "
+credits="Created using mod maker MCreator - https://mcreator.net/about; based on the original Hexxit Gear Mod:  https://github.com/sct/HexxitGear"
+displayURL="https://linktr.ee/g_utopia"
+logoFile="logo.png"
+authors="G Utopia, MCreator, sct"
+description="Three ancient armors of legend, lost to the world. Can you restore the pieces one by one and reclaim one of these powerful sets of armor for yourself?  Hexxit Gear is a simple mod that adds interesting and unique pieces of armor to the game. Each armor is crafted by collecting an especially rare resource known as Hexical Essence. If you collect enough you will be able to enchant diamonds and sow them into the thread of your armor, restoring the legendary pieces to their former glory.  Each set grants unique bonuses and has a completely unique style like no set of armor you have ever seen before in Minecraft!"
+
+[[dependencies.hexxitgear]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

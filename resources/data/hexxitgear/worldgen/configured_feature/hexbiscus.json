@@ -1,0 +1,152 @@
+{
+  "type": "hexxitgear:hexbiscus",
+  "config": {
+    "size": 1,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:poppy"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:blue_orchid"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_tulip"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dandelion"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:allium"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:azure_bluet"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:orange_tulip"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:white_tulip"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:pink_tulip"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:oxeye_daisy"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cornflower"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:grass"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:fern"
+          }
+        },
+        "state": {
+          "Name": "hexxitgear:hexbiscus"
+        }
+      }
+    ]
+  }
+}

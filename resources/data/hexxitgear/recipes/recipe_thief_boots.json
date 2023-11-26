@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "hexxitgear:hexicaldiamond"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:gray_wool"
+    },
+    "5": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "hexxitgear:thief_boots",
+    "count": 1
+  }
+}

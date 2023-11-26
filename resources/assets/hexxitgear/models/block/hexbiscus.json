@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hexxitgear:block/tile.hexxitgear.flora.hexbiscus",
+    "particle": "hexxitgear:block/tile.hexxitgear.flora.hexbiscus"
+  },
+  "render_type": "cutout"
+}
