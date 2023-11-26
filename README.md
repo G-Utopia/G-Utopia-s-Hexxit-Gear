@@ -1,5 +1,5 @@
 # G-Utopia's Hexxit Gear
-Its finally here. Hexxit Gear for the Minecraft Version 1.20.1. Ported from the original by sct!
+Its finally here. Hexxit Gear for the Minecraft Version 1.20.1. [Ported from the original by sct!](https://github.com/sct/HexxitGear)
 
 Three ancient armors of legend, lost to the world. Can you restore the pieces one by one and reclaim one of these powerful sets of armor for yourself?
 
