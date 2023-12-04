@@ -1,0 +1,387 @@
+{
+  "mod_elements": [
+    {
+      "name": "HexxitGear",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexxit_gear",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Scale",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hexxitgear/models/item/scale_helmet.json",
+          "src/main/resources/assets/hexxitgear/models/item/scale_leggings.json",
+          "src/main/java/net/g_utopia/hexxitgear/item/ScaleItem.java",
+          "src/main/resources/assets/hexxitgear/models/item/scale_boots.json",
+          "src/main/resources/assets/hexxitgear/models/item/scale_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Hexicaldiamond",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexicaldiamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hexxitgear/models/item/hexicaldiamond.json",
+          "src/main/java/net/g_utopia/hexxitgear/item/HexicaldiamondItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hexicalessence",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexicalessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/g_utopia/hexxitgear/item/HexicalessenceItem.java",
+          "src/main/resources/assets/hexxitgear/models/item/hexicalessence.json"
+        ]
+      }
+    },
+    {
+      "name": "Hexbiscus",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexbiscus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/g_utopia/hexxitgear/world/features/ores/HexbiscusFeature.java",
+          "src/main/resources/data/hexxitgear/worldgen/configured_feature/hexbiscus.json",
+          "src/main/resources/assets/hexxitgear/models/block/hexbiscus.json",
+          "src/main/resources/data/hexxitgear/forge/biome_modifier/hexbiscus_biome_modifier.json",
+          "src/main/resources/data/hexxitgear/worldgen/placed_feature/hexbiscus.json",
+          "src/main/resources/assets/hexxitgear/models/item/hexbiscus.json",
+          "src/main/java/net/g_utopia/hexxitgear/block/HexbiscusBlock.java",
+          "src/main/resources/assets/hexxitgear/blockstates/hexbiscus.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeHexicaldiamond",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_hexicaldiamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_hexicaldiamond.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeScaleHelmet",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_scale_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_scale_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeScaleChestplate",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_scale_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_scale_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeScaleLeggings",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_scale_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_scale_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeScaleBoots",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_scale_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_scale_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "ScaleEffect",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scale_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/g_utopia/hexxitgear/procedures/ScaleEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thief",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thief",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hexxitgear/models/item/thief_leggings.json",
+          "src/main/resources/assets/hexxitgear/models/item/thief_boots.json",
+          "src/main/java/net/g_utopia/hexxitgear/item/ThiefItem.java",
+          "src/main/resources/assets/hexxitgear/models/item/thief_helmet.json",
+          "src/main/resources/assets/hexxitgear/models/item/thief_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ThiefEffect",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thief_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/g_utopia/hexxitgear/procedures/ThiefEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeThiefHood",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_thief_hood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_thief_hood.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeThiefChestpiece",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_thief_chestpiece",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_thief_chestpiece.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeThiefLeggings",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_thief_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_thief_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeThiefBoots",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_thief_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_thief_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Tribal",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hexxitgear/models/item/tribal_chestplate.json",
+          "src/main/resources/assets/hexxitgear/models/item/tribal_leggings.json",
+          "src/main/resources/assets/hexxitgear/models/item/tribal_boots.json",
+          "src/main/java/net/g_utopia/hexxitgear/item/TribalItem.java",
+          "src/main/resources/assets/hexxitgear/models/item/tribal_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "TribalEffect",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/g_utopia/hexxitgear/procedures/TribalEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeTribalHelmet",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_tribal_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_tribal_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeTribalChestpiece",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_tribal_chestpiece",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_tribal_chestpiece.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeTribalLeggings",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_tribal_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_tribal_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeTribalBoots",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_tribal_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hexxitgear/recipes/recipe_tribal_boots.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.hexxitgear.tribal_chestplate": "Tribal Chestpiece",
+      "item.hexxitgear.tribal_leggings": "Tribal Leggings",
+      "item.hexxitgear.scale_chestplate": "Scale Chestplate",
+      "item.hexxitgear.scale_leggings": "Scale Leggings",
+      "item.hexxitgear.scale_boots": "Scale Boots",
+      "item.hexxitgear.tribal_boots": "Tribal Boots",
+      "item.hexxitgear.thief_boots": "Thief Boots",
+      "item_group.hexxitgear.hexxit_gear": "Hexxit Gear",
+      "block.hexxitgear.hexbiscus": "Hexbiscus",
+      "item.hexxitgear.tribal_helmet": "Tribal Helmet",
+      "item.hexxitgear.hexicaldiamond": "Hexicaldiamond",
+      "item.hexxitgear.thief_chestplate": "Thief Chestpiece",
+      "item.hexxitgear.thief_helmet": "Thief Hood",
+      "item.hexxitgear.scale_helmet": "Scale Helmet",
+      "item.hexxitgear.thief_leggings": "Thief Leggings",
+      "item.hexxitgear.hexicalessence": "Hexicalessence"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hexxitgear",
+    "modName": "G Utopia\u0027s Hexxit Gear ",
+    "version": "1.0.0",
+    "description": "Three ancient armors of legend, lost to the world. Can you restore the pieces one by one and reclaim one of these powerful sets of armor for yourself?  Hexxit Gear is a simple mod that adds interesting and unique pieces of armor to the game. Each armor is crafted by collecting an especially rare resource known as Hexical Essence. If you collect enough you will be able to enchant diamonds and sow them into the thread of your armor, restoring the legendary pieces to their former glory.  Each set grants unique bonuses and has a completely unique style like no set of armor you have ever seen before in Minecraft!",
+    "author": "G Utopia, MCreator, sct",
+    "websiteURL": "https://linktr.ee/g_utopia",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "hexxit_gear_thumb",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about; based on the original Hexxit Gear Mod:  https://github.com/sct/HexxitGear",
+    "modElementsPackage": "net.g_utopia.hexxitgear",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

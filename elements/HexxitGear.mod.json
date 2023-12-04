@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Hexxit Gear",
+    "icon": {
+      "value": "CUSTOM:Scale.helmet"
+    },
+    "showSearch": false
+  }
+}
